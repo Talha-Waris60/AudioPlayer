@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:backgroundTint="#FDD835"/>
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pause"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/play"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:backgroundTint="#FB8C00"/>
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/pause"
+        android:text="Stop"
+        android:textAllCaps="false"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:backgroundTint="#F4511E"/>
+
+</RelativeLayout>
